@@ -46,29 +46,88 @@
 </div>
 
 ---
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About_Me.js
 
-# 💫 About Me
+```javascript
+/**
+ * Hi, I'm Aarush Singh 👋
+ * Second-Year B.Tech Student
+ * Aspiring Software Engineer
+ */
 
-I'm **Aarush Singh**, a second-year **B.Tech student** with a strong interest in **Software Engineering, Backend Development, Artificial Intelligence, and scalable systems**.
+const aarush = {
+    pronouns: "He/Him",
 
-Currently, I'm focused on strengthening my computer science fundamentals by learning Data Structures & Algorithms, Object-Oriented Programming, System Design basics, and modern software development practices.
+    education: "B.Tech (2nd Year)",
 
-My goal is to become an engineer capable of building reliable, scalable, and impactful products while contributing to open-source communities and preparing for future Software Engineering opportunities at leading technology companies.
+    role: "Aspiring Software Engineer",
 
-I enjoy learning by building, writing clean and maintainable code, and continuously improving my engineering mindset through real-world development and problem solving.
+    interests: [
+        "Software Engineering",
+        "Backend Development",
+        "Artificial Intelligence",
+        "Scalable Systems"
+    ],
+
+    currentlyLearning: [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "System Design Basics",
+        "Modern Software Development"
+    ],
+
+    goal: "Build reliable, scalable and impactful software while contributing to open source.",
+
+    mindset: "Learn → Build → Improve → Repeat 🚀"
+};
+
+console.log("Always learning. Always building.");
+```
 
 ---
 
-## 🚀 Open To
+## 🚀 Open_To.js
 
-- Software Engineering Internships
-- Backend Development
-- Open Source Contributions
-- AI & Machine Learning
-- Developer Communities
-- Technical Collaborations
-- Competitive Programming
-- Learning Opportunities
+```javascript
+const opportunities = [
+    "Software Engineering Internships",
+    "Backend Development",
+    "Open Source Contributions",
+    "AI & Machine Learning",
+    "Developer Communities",
+    "Technical Collaborations",
+    "Competitive Programming",
+    "Learning Opportunities"
+];
+
+opportunities.forEach(opportunity => {
+    console.log(`✅ ${opportunity}`);
+});
+```
+
+---
+
+## 💭 Philosophy.cpp
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    while(true){
+        Learn();
+        Build();
+        Improve();
+    }
+
+    return 0;
+}
+```
+
+> **Output**
+>
+> 🚀 *Keep learning. Keep building. Stay curious.*
 
 ---
 
