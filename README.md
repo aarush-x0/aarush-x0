@@ -375,7 +375,7 @@ open_to:
 
 </div>
 
-> **Note:** The snake animation will appear automatically **after you add the GitHub Action workflow** to your profile repository. It won't work until the workflow runs at least once.
+
 
 ---
 
